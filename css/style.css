@@ -1,0 +1,188 @@
+:root {
+    --primary: #a6a5a5;
+    --light: #F8F8F8;
+    --dark: #252525;
+}
+
+body{
+    background: url(../img/bg.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+    font-weight: 600 !important;
+    color:var(--dark) !important;
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+    font-weight: 500 !important;
+    color:var(--dark) !important;
+}
+
+h5,
+h6,
+.h5,
+.h6,
+.fw-normal {
+    font-weight: 400 !important;
+    color:var(--light) !important;
+}
+
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.btn-outline-body {
+    color: var(--primary);
+    border-color: #777777;
+}
+
+.btn-outline-body:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 30px 0;
+    color: var(--light);
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.navbar.sticky-top {
+    top: -100px;
+    background: black !important ;
+}
+
+#header{
+    height: 81px;
+    background: black;
+
+}
+
+.page-header {
+    background-size: cover;
+}
+
+
+.form-control, .form-control:hover, .form-control:focus{
+
+    background-color: #7a1f17;
+    font-weight: 900 !important;
+    color: black;
+}
+
+
+.BtnForm{
+    background-color: rgb(244, 178, 56);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 2px solid rgb(244, 178, 56);
+    color: rgb(0, 0, 0);
+}
+
+.BtnFormP{
+    background-color: rgb(244, 178, 56);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 1px double rgb(244, 178, 56);
+    color: rgb(0, 0, 0);
+
+}
+
+#razmak{
+    margin-bottom: 150px;
+}
+
+
+
+#por{
+    color: rgb(255, 255, 255) !important;
+    font-family: "Open Sans",sans-serif;
+}
+
+#linija{
+    height: 2px;
+    background-color: rgb(246, 151, 0);
+
+}
+
+.table{
+    background-color: rgba(222, 175, 35, 0.086) !important;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    margin-bottom: 100px;
+    margin-left: 22px;
+
+}
